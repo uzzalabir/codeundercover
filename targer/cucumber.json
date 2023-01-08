@@ -1,0 +1,41 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Verify user can login with valid card",
+        "description": "",
+        "id": "this-feature-is-for-login-functionality;verify-user-can-login-with-valid-card",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 638486400,
+              "error_message": "java.lang.NullPointerException\r\n\tat Utility.Base_Parent.metaLaunchURL(Base_Parent.java:81)\r\n\tat StepDeffination.Login.metalaunch(Login.java:13)\r\n\tat ✽.Given MetaLaunch \"\u003cURL\u003e\"(Login.feature:4)\r\n",
+              "status": "failed"
+            },
+            "line": 4,
+            "name": "MetaLaunch \"\u003cURL\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cURL\u003e",
+                  "offset": 12
+                }
+              ],
+              "location": "Login.metalaunch(String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      }
+    ],
+    "name": "This Feature is for Login Functionality",
+    "description": "",
+    "id": "this-feature-is-for-login-functionality",
+    "keyword": "Feature",
+    "uri": "Login.feature"
+  }
+]
